@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+/* #383633 Soort Zwartx
+#96cad2 Lichtblauwe 2
+#2b96a8 Beetje groene 1
+#b896d2 Roors paarsachtige 3
+#f0f0f0 Lichtgrijs  */
+
+body{
+  margin: 0;
+  background-image: url("fotos/onswerkbackground.svg");
+  background-size: cover;
+  padding: 0;
+}
+
+.logonav{
+  width: 200px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.werkfoto{
+  width: 500px;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+
+.kopwerk__groen, .kopwerk__roze, .kopwerk__blauw, .tekstwerk{
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 250px;
+}
+
+.tekstwerk{
+  color: grey;
+  font-size: 16px;
+}
+
+.kopwerk__groen, .kopwerk__roze, .kopwerk__blauw{
+  font-size: 23px;
+}
+
+.kopwerk__groen{
+  color: #2b96a8;
+}
+
+.kopwerk__roze{
+  color: #b896d2;
+}
+
+.kopwerk__blauw{
+  color: #96cad2;
+}
+
+.werk__een{
+  display: grid;
+  grid-template-columns: 650px 650px;
+
+}
+
+.werk__twee{
+  display: grid;
+  grid-template-columns: 650px 650px;
+  margin-top: -100px;
+}
+
+nav{
+  height: 50px;
+  background: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav h1{
+  position: absolute;
+  width: 200px;
+  top: 8px;
+  left: 5%;
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+/* Hier mss */
+nav ul{
+  float: right;
+  padding: 0;
+  margin: 0;
+  margin-right: 25px;
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 15px;
+
+}
+
+nav ul li a{
+  position: relative;
+  padding: 5px 0;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #2b96a8;
+  transition: 0.3s;
+}
+
+label #sign-one, label #sign-two{
+  font-size: 30px;
+  color: #000;
+  float: right;
+  line-height: 50px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+#res-menu{
+  display: none;
+}
+
+
+.kopnaam{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2b96a8;
+  margin-top: 120px;
+  margin-left: 90px;
+  font-size: 55px;
+}
+
+.koptekst{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 90px;
+  font-size: 19px;
+  color:  rgb(82 86 89);
+  line-height: 32px;
+
+}
+
+.kopfoto {
+  width: 850px;
+  float: right;
+  position: absolute;
+  top: 100px;
+  right: 0px;
+}
+
+.overons{
+  margin-left: 90px;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 240px;
+  height: 60px;
+  margin-top: 40px;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  font-weight: 1000;
+  color: white;
+  background-image: linear-gradient(to right, #96cad2 0%, #96cad2 15%, #b896d2 100%);
+}
+
+.card1, .card2, .card3 {
+transition: 0.3s;
+margin-top: 350px;
+width: 30%;
+height: 21%;
+border-radius: 30px;
+line-height: 25px;
+border: 1px ;
+font-family: 'Source Sans Pro', sans-serif;
+padding: 20px;
+font-size: 30px;
+text-align: center;
+}
+
+.card1{
+  box-shadow: 0 5px 16px 0 #2b96a8;
+}
+
+.card2{
+  box-shadow: 0 5px 16px 0 #b896d2;
+}
+
+.card3{
+  box-shadow: 0 5px 16px 0 #96cad2;
+}
+
+.cardtekst{
+width: 50%;
+height: 21%;
+border-radius: 30px;
+line-height: 25px;
+font-family: 'Source Sans Pro', sans-serif;
+padding: 20px;
+font-size: 30px;
+margin-left: 145px;
+text-align: center;
+}
+
+.webinfo{
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 50px;
+  margin-top: 35px;
+  color: grey;
+
+}
+
+.huisinfo{
+  margin-left: -256px;
+  margin-top: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: grey;
+
+}
+
+.reclameinfo{
+  margin-left: -330px;
+  margin-top: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: grey;
+
+}
+
+.cardinfo{
+margin-top: -80px;
+width: 50%;
+height: 21%;
+border-radius: 30px;
+line-height: 25px;
+font-family: 'Source Sans Pro', sans-serif;
+padding: 20px;
+font-size: 15px;
+margin-left: 145px;
+text-align: center;
+}
+
+.web, .huis, .reclame{
+  font-size: 27px;
+}
+.huis{
+  margin-left: -435px;
+  color: #b896d2;
+
+}
+.reclame{
+  margin-left: -410px;
+  color: #96cad2;
+}
+
+.web{
+  color: #2b96a8;
+  font-weight: bold;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.cardimg{
+  width: 30px!important;
+  height: 10px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-left: 250px;
+}
+
+.gridtekst{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.cardkop{
+  font-size: 30px;
+}
+
+.cardtekst{
+  font-size: 15px;
+}
+
+
+.cardbutton1, .cardbutton2, .cardbutton3{
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 240px;
+  height: 60px;
+  margin-top: 40px;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 30px;
+  font-weight: 1000;
+}
+
+.cardbutton1{
+  border: 3.4px solid #2b96a8;
+  color: #2b96a8;
+  font-weight: bold;
+}
+
+.cardbutton2{
+  border: 3.4px solid #b896d2;
+  color: #b896d2;
+  font-weight: bold;
+  margin-top: 15Px;
+}
+
+.cardbutton3{
+  border: 3.4px solid #96cad2;
+  color: #96cad2;
+  font-weight: bold;
+  margin-top: 90px;
+
+}
+iframe{
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 690px;
+  height: 389px;
+  opacity: 80%;
+  display: block;
+  border: 30px solid #2b96a8;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.ondervideo{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 90px;
+  font-size: 40px;
+}
+.ondervideotekst{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 90px;
+  text-align: center;
+  opacity: 80%;
+  font-size: 19px;
+  color:  rgb(82 86 89);
+  line-height: 29px;
+
+}
+
+.footerimg{
+  width: 600px;
+  margin-top: 200px;
+  margin-left: 140px;
+}
+
+.tekstimage{
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #2b96a8;
+  position: relative;
+  bottom: 350px;
+  margin-left: 60px;
+}
+
+.infoimage{
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  position: relative;
+  bottom: 350px;
+  color:  rgb(82 86 89);
+  margin-left: 807px;
+}
+
+footer{
+  width: 100%;
+  background-color: #333;
+  height: 300px;
+  display: grid;
+  margin-top: 150px;
+  grid-template-columns: auto auto auto;
+}
+
+.gridplek div{
+  color: white;
+  height: 200px;
+  position: fixed;
+  color: white;
+}
+
+.een, .twee, .drie{
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+}
+
+footer a{
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 30px;
+  color: white;
+  margin-right: 140px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer a:hover{
+  color: #2b96a8;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+footer .een{
+  font-size: 40px;
+  margin-left: 190px;
+
+}
+
+.footertekst{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-size: 18px;
+  margin-left: 190px;
+  line-height: 23px;
+  font-weight: bold;
+}
